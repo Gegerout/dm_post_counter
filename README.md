@@ -1,4 +1,6 @@
-# Классификация булевых функций по классам Поста
+# Boolean Function Classification by Post Classes
+[![ru](https://img.shields.io/badge/lang-ru-green.svg)](https://github.com/Gegerout/dm_post_counter/blob/main/README.md)
+[![en](https://img.shields.io/badge/lang-en-red.svg)](https://github.com/Gegerout/dm_post_counter/blob/main/README.en.md)
 
 Проект предназначен для нахождения количества булевых функций от `n` переменных для всех конфигураций классов Поста. Программа генерирует все таблицы истинности для заданного числа переменных и распределяет их по классам Поста:
 

@@ -138,12 +138,12 @@ if __name__ == "__main__":
 
     print("\nКлассификация Поста и количество функций:")
     print("+" + "-" * 38 + "+" + "-" * 12 + "+")
-    print(f"| {'Классификация':<36} | {'Количество':<10} |")
+    print("| {:<36} | {:<10} |".format("Классификация", "Количество"))
     print("+" + "-" * 38 + "+" + "-" * 12 + "+")
     for class_signature, count in classifications.items():
         if class_signature:
             signature_str = ", ".join(class_signature)
         else:
             signature_str = "Не принадлежат ни одному классу"
-        print(f"| {signature_str:<36} | {count:<10} |")
+        print("| {:<36} | {:<10} |".format(signature_str, count))
     print("+" + "-" * 38 + "+" + "-" * 12 + "+")
